@@ -1,0 +1,83 @@
+.zr-input {
+  overflow: hidden;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s;
+  resize: none;
+  background-color: #FFF !important;
+  outline: none;
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  border: 1px solid #d9d9d9;
+  height: 24px;
+  line-height: 24px;
+  color: #4c4c4c;
+}
+.zr-input:hover {
+  border-color: #40a9ff;
+}
+.zr-input:focus {
+  border-color: #40a9ff;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+.zr-textarea {
+  overflow: hidden;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s;
+  resize: vertical;
+  background-color: #FFF !important;
+  outline: none;
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  line-height: 20px;
+  color: #4c4c4c;
+}
+.zr-textarea:hover {
+  border-color: #40a9ff;
+}
+.zr-textarea:focus {
+  border-color: #40a9ff;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+.zr-tooltip-arrow {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.zr-tooltip-arrow::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  top: 0;
+  left: 50%;
+  box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.6);
+}
+.zr-arrow-owner {
+  position: relative;
+  background: white;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Rpc3QvZGV2ZWxvcG1lbnQvaW5kZXguc3R5bGUuYnVuZGxlLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
