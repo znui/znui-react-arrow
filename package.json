@@ -1,6 +1,6 @@
 {
   "name": "znui-react-arrow",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Web arrow component.",
   "main": "index.js",
   "scripts": {
